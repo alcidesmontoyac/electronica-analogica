@@ -76,8 +76,8 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, recursos/custom.scss]
-      dark: [darkly, recursos/custom-dark.scss]
+      light: cosmo
+      dark: darkly
     code-fold: true
     code-tools: true
     toc: true
