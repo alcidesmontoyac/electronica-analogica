@@ -1,0 +1,24 @@
+/*-- Electrónica Análoga · Tema personalizado (oscuro) --*/
+
+.navbar {
+  background: linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 100%) !important;
+}
+
+.hero-banner {
+  background: linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 100%);
+  color: #e8f4fd;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+
+  h1 { color: #e8f4fd; }
+  p, strong { color: rgba(232,244,253,0.88); }
+}
+
+h2 {
+  color: #5dade2;
+  border-bottom: 2px solid #2e86c1;
+  padding-bottom: 0.3rem;
+}
+
+h3 { color: #85c1e9; }

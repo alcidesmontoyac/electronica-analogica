@@ -1,0 +1,150 @@
+---
+title: "Módulo 1: Semiconductores y portadores de carga"
+subtitle: "Fundamentos para entender diodos y transistores"
+author: "Alcides Montoya"
+date: "2026-08-01"
+categories: [teoria, semiconductores, fundamentos]
+---
+
+## Motivación
+
+Todo dispositivo electrónico — un diodo, un transistor, un chip de millones de compuertas — está construido sobre el comportamiento cuántico de electrones en materiales semiconductores. Este módulo establece esa base.
+
+::: {.callout-tip}
+## Video de referencia
+Antes de leer este módulo, mire la **Lección 1 de Razavi**: introducción a portadores de carga y dopaje.
+
+{{< video https://www.youtube.com/watch?v=yQDfVJzEymI width="100%" >}}
+:::
+
+---
+
+## 1.1 Materiales semiconductores
+
+Los semiconductores son materiales con conductividad eléctrica intermedia entre conductores y aislantes. El silicio (Si) y el germanio (Ge) son los más comunes.
+
+### Estructura cristalina del silicio
+
+El silicio tiene 4 electrones de valencia que forman enlaces covalentes con 4 átomos vecinos, creando una red cristalina tetraédrica.
+
+```python
+# Ejemplo: energía de banda prohibida de materiales comunes
+materiales = {
+    'Silicio (Si)':    1.12,  # eV
+    'Germanio (Ge)':   0.66,
+    'GaAs':            1.42,
+    'SiC':             3.26,
+    'Diamante (C)':    5.47,
+}
+
+print("Material              | Eg (eV) | Tipo")
+print("-" * 45)
+for mat, eg in materiales.items():
+    tipo = "semiconductor" if eg < 3 else "aislante aprox."
+    print(f"{mat:<22}| {eg:<8}| {tipo}")
+```
+
+### Diagrama de bandas de energía
+
+| Material | Banda de valencia | Banda prohibida $E_g$ | Banda de conducción |
+|----------|:-----------------:|:--------------------:|:-----------------:|
+| Conductor | ▓▓▓▓▓▓▓▓▓▓ | — (se solapan) | ▓▓▓▓▓▓▓▓▓▓ |
+| Semiconductor | ▓▓▓▓▓▓▓▓▓▓ | ~1 eV | ░░░░░░░░░░ |
+| Aislante | ▓▓▓▓▓▓▓▓▓▓ | ~5 eV | ░░░░░░░░░░ |
+
+---
+
+## 1.2 Portadores de carga
+
+En un semiconductor puro (intrínseco) a temperatura ambiente, la energía térmica puede romper algunos enlaces covalentes, generando dos tipos de portadores:
+
+**Electrones libres** ($n$): carga negativa, se mueven en la banda de conducción.
+
+**Huecos** ($p$): "ausencia" de electrón en la banda de valencia, se comportan como carga positiva.
+
+La **concentración intrínseca** $n_i$ del silicio a 300 K es:
+
+$$n_i \approx 1.5 \times 10^{10} \text{ cm}^{-3}$$
+
+Y se cumple la relación de acción de masas:
+
+$$n \cdot p = n_i^2$$
+
+---
+
+## 1.3 Dopaje
+
+El dopaje es la introducción controlada de impurezas para aumentar la conductividad:
+
+### Tipo N (exceso de electrones)
+
+Se agregan átomos del **Grupo V** (fósforo P, arsénico As) que tienen 5 electrones de valencia. El quinto electrón queda libre.
+
+$$n \approx N_D \gg n_i$$
+
+### Tipo P (exceso de huecos)
+
+Se agregan átomos del **Grupo III** (boro B) que tienen 3 electrones de valencia. Crean un hueco libre.
+
+$$p \approx N_A \gg n_i$$
+
+::: {.callout-note}
+## Relación importante
+En cualquier semiconductor dopado se cumple siempre:
+$$n \cdot p = n_i^2$$
+Si $N_D = 10^{16}$ cm$^{-3}$, entonces $n \approx 10^{16}$ y $p = n_i^2/N_D \approx 2.25 \times 10^4$ cm$^{-3}$.
+:::
+
+---
+
+## 1.4 Corriente en semiconductores
+
+Hay dos mecanismos de transporte de carga:
+
+### Corriente de deriva (drift)
+
+Causada por campo eléctrico $\mathcal{E}$:
+
+$$J_{\text{drift}} = (q n \mu_n + q p \mu_p)\,\mathcal{E} = \sigma \mathcal{E}$$
+
+donde $\mu_n$ y $\mu_p$ son las movilidades de electrones y huecos.
+
+Para el silicio a 300 K:
+- $\mu_n \approx 1350$ cm²/V·s
+- $\mu_p \approx 480$ cm²/V·s
+
+### Corriente de difusión (diffusion)
+
+Causada por gradiente de concentración:
+
+$$J_{\text{diff}} = q D_n \frac{dn}{dx} - q D_p \frac{dp}{dx}$$
+
+Las difusividades $D_n$ y $D_p$ están relacionadas con las movilidades por la **Relación de Einstein**:
+
+$$\frac{D_n}{\mu_n} = \frac{D_p}{\mu_p} = \frac{kT}{q} = V_T$$
+
+donde $V_T \approx 26$ mV a 300 K es el **voltaje térmico**.
+
+---
+
+## Resumen del módulo
+
+| Concepto | Fórmula clave |
+|----------|--------------|
+| Acción de masas | $np = n_i^2$ |
+| Voltaje térmico | $V_T = kT/q \approx 26$ mV |
+| Einstein | $D/\mu = V_T$ |
+| Corriente total | $J = J_{\text{drift}} + J_{\text{diff}}$ |
+
+---
+
+## Ejercicios
+
+1. El silicio está dopado con $N_D = 5\times10^{15}$ cm$^{-3}$. Calcule $n$, $p$ y el tipo de semiconductor.
+2. ¿Por qué $\mu_n > \mu_p$ en el silicio?
+3. Calcule $V_T$ a 37°C (temperatura corporal). ¿Qué implicaciones tiene esto?
+
+::: {.callout-warning}
+## Para entregar
+Los ejercicios de este módulo hacen parte del **Taller 1**. Entrega vía GitHub Classroom — el enlace está en la sección [Evaluaciones](../../evaluaciones/index.qmd).
+:::

@@ -1,0 +1,114 @@
+---
+title: "Recursos"
+subtitle: "Libros, herramientas, videos y guías de apoyo"
+toc: true
+---
+
+## Texto principal
+
+**Design of Analog CMOS Integrated Circuits** — Behzad Razavi (2ª ed., 2017).
+
+> El libro de referencia del curso. Cubre desde semiconductores hasta amplificadores de alta frecuencia con rigor y claridad excepcionales.
+
+---
+
+## Serie de video Razavi
+
+Clases magistrales del propio autor, gratuitas en YouTube. Son el complemento perfecto a las sesiones presenciales.
+
+{{< video https://www.youtube.com/watch?v=yQDfVJzEymI&list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU width="100%" >}}
+
+| Lección | Tema |
+|---------|------|
+| 1 | Intro, portadores de carga, dopaje |
+| 2 | Transporte, unión p-n en equilibrio |
+| 3 | Diodo bajo polarización |
+| 4 | Modelos del diodo |
+| 5 | Circuitos con diodos |
+| ... | (serie completa disponible en el enlace) |
+
+---
+
+## Software de simulación
+
+### Python (recomendado para análisis)
+
+```bash
+# Instalar dependencias básicas del curso
+pip install numpy matplotlib scipy jupyter
+```
+
+### LTspice (simulación de circuitos)
+
+Gratuito, disponible para Windows y Mac. Permite simular todos los circuitos del curso.
+
+- [Descarga LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+- Los archivos `.asc` de los laboratorios estarán en cada carpeta de lab.
+
+---
+
+## Git para principiantes
+
+Si nunca ha usado Git, siga estos pasos:
+
+### Instalación
+
+```bash
+# macOS
+brew install git
+
+# Ubuntu/Debian
+sudo apt install git
+
+# Windows — descargue Git Bash desde git-scm.com
+```
+
+### Configuración inicial (hágalo una sola vez)
+
+```bash
+git config --global user.name "Su Nombre"
+git config --global user.email "su.correo@unal.edu.co"
+```
+
+### Flujo básico para entregar tareas
+
+```bash
+git clone <enlace-del-repo>   # clonar
+cd <nombre-del-repo>          # entrar
+# ... hacer su trabajo ...
+git add .                      # preparar cambios
+git commit -m "Mensaje breve" # guardar localmente
+git push                       # subir a GitHub
+```
+
+---
+
+## Canales de YouTube del profesor
+
+::: {.grid}
+::: {.g-col-6}
+### Canal principal
+**[@alcidesdejesusmontoyac](https://www.youtube.com/@alcidesdejesusmontoyac)**
+
+Material de cursos, tutoriales y divulgación en ingeniería y física.
+:::
+::: {.g-col-6}
+### Quantum Colombia
+**[@Quantum_Colombia](https://www.youtube.com/@Quantum_Colombia)**
+
+Computación cuántica, machine learning cuántico e investigación de frontera.
+:::
+:::
+
+---
+
+## Foro del curso
+
+Las preguntas académicas van al [foro de GitHub Discussions](https://github.com/alcidesmontoyac/electronica-analogica/discussions).
+
+Antes de abrir una pregunta nueva, busque si ya fue respondida. Use las categorías:
+
+- **💬 General** — preguntas generales del curso
+- **📚 Teoría** — dudas sobre los módulos teóricos
+- **🔬 Laboratorios** — ayuda con los labs y el código
+- **💡 Ideas** — sugerencias de mejora al material

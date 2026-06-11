@@ -1,0 +1,90 @@
+---
+title: "Evaluaciones"
+subtitle: "Talleres, laboratorios y proyecto final"
+toc: false
+---
+
+## Cronograma de evaluaciones 2026-2
+
+| Evaluación | Contenido | Fecha | Peso | Entrega |
+|---|---|---|---|---|
+| Taller 1 | Semiconductores + Diodos | Semana 3 | 8% | GitHub Classroom |
+| **Lab 1** | Curva I-V del diodo | Semana 4 | 3.5% | GitHub Classroom |
+| **Lab 2** | Rectificadores | Semana 5 | 3.5% | GitHub Classroom |
+| **Parcial 1** | Diodos + BJT | Semana 8 | 25% | Presencial |
+| **Lab 3** | Punto de operación BJT | Semana 9 | 3.5% | GitHub Classroom |
+| **Lab 4** | Amplificador BJT | Semana 10 | 3.5% | GitHub Classroom |
+| **Lab 5** | Punto de operación MOSFET | Semana 11 | 3.5% | GitHub Classroom |
+| **Lab 6** | Amplificador MOSFET | Semana 12 | 3.5% | GitHub Classroom |
+| **Parcial 2** | MOSFET + Amplificadores | Semana 14 | 25% | Presencial |
+| **Lab 7** | Oscilador de Wien | Semana 15 | 3.5% | GitHub Classroom |
+| **Lab 8** | Filtros activos | Semana 16 | 3.5% | GitHub Classroom |
+| **Proyecto final** | Diseño completo | Semana 18 | 20% | GitHub Classroom + Presentación |
+
+---
+
+## Instrucciones GitHub Classroom
+
+Todos los laboratorios y talleres se entregan a través de **GitHub Classroom**. El flujo es el siguiente:
+
+### Paso 1 — Aceptar la tarea
+
+Haga clic en el enlace de asignación correspondiente (columna "Entrega" en la tabla). Esto crea automáticamente un repositorio privado para usted con el nombre `lab01-apellido`.
+
+### Paso 2 — Clonar el repositorio
+
+```bash
+git clone https://github.com/alcidesmontoyac-classroom/lab01-su-usuario.git
+cd lab01-su-usuario
+```
+
+### Paso 3 — Completar la tarea
+
+Siga las instrucciones del `README.md` que viene en el repo. Típicamente:
+
+```
+lab01-su-usuario/
+├── README.md         ← instrucciones
+├── datos.csv         ← llene con sus mediciones
+├── analisis.py       ← complete el análisis
+└── informe.qmd       ← redacte su informe (o informe.pdf)
+```
+
+### Paso 4 — Subir su trabajo
+
+```bash
+git add .
+git commit -m "Entrega Lab 1 — Alcides Ejemplo"
+git push
+```
+
+::: {.callout-tip}
+## ¿Primera vez con Git?
+No se preocupe. Hay una guía básica en [Recursos → Git para principiantes](../recursos/index.qmd). También puede hacer los primeros pasos desde la interfaz web de GitHub sin instalar nada.
+:::
+
+---
+
+## Enlaces de asignación
+
+::: {.callout-note}
+Los enlaces se activarán en la fecha de apertura de cada tarea.
+:::
+
+| Tarea | Estado | Enlace |
+|-------|--------|--------|
+| Taller 1 | 🔒 Próximamente | — |
+| Lab 1 | 🔒 Próximamente | — |
+| Lab 2 | 🔒 Próximamente | — |
+| Parcial 1 | — | Presencial |
+| Lab 3–8 | 🔒 Próximamente | — |
+| Proyecto final | 🔒 Próximamente | — |
+
+---
+
+## Política de entregas
+
+- Las entregas con **hasta 24h de retraso** tienen descuento del 20%.
+- Entregas con **más de 24h de retraso** tienen nota de 0.0.
+- El código debe ser propio. El uso de IA para generar el informe completo no está permitido, pero sí como herramienta de apoyo y verificación.
+- El repositorio debe estar **público o accesible al profesor** al momento de la calificación.

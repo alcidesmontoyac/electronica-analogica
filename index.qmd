@@ -1,0 +1,102 @@
+---
+title: "Electrónica Análoga"
+subtitle: "Taller 4 · Ingeniería Física · Universidad Nacional de Colombia · 2026-2"
+page-layout: full
+toc: false
+---
+
+::: {.hero-banner}
+# Bienvenidos al curso ⚡
+
+**Profesor:** Alcides de Jesús Montoya Cañola  
+**Código:** Taller 4 — Ingeniería Física  
+**Período:** 2026-2 · Universidad Nacional de Colombia, sede Medellín  
+**Horario:** Por confirmar  
+**Lugar:** Por confirmar
+:::
+
+---
+
+## ¿De qué trata el curso?
+
+La electrónica análoga estudia el comportamiento de señales continuas y los dispositivos que las procesan: diodos, transistores BJT y MOSFET, amplificadores operacionales, osciladores y filtros. Es la base de todo sistema electrónico real — desde un micrófono hasta un radar.
+
+El curso combina **teoría rigurosa** con **laboratorios de simulación y montaje real**, siguiendo como texto guía a **Behzad Razavi**, uno de los autores más importantes del campo.
+
+---
+
+## Serie de referencia
+
+Usaremos como complemento la serie de clases magistrales del propio Razavi, disponibles en YouTube:
+
+{{< video https://www.youtube.com/watch?v=yQDfVJzEymI&list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU width="700" height="394" >}}
+
+> *"Circuit Design and Analysis"* — Prof. Behzad Razavi, UCLA. Serie completa con más de 1.2 millones de vistas.
+
+---
+
+## Estructura del curso
+
+::: {.grid}
+
+::: {.g-col-6}
+### 📚 Módulos de teoría
+
+| # | Tema |
+|---|------|
+| 1 | Semiconductores y portadores |
+| 2 | Diodos: modelos y aplicaciones |
+| 3 | Transistor BJT |
+| 4 | Transistor MOSFET |
+| 5 | Amplificadores de pequeña señal |
+| 6 | Realimentación |
+| 7 | Osciladores |
+| 8 | Filtros activos |
+:::
+
+::: {.g-col-6}
+### 🔬 Laboratorios
+
+| # | Práctica |
+|---|---------|
+| 1 | Curva I-V del diodo |
+| 2 | Rectificadores |
+| 3 | Punto de operación BJT |
+| 4 | Amplificador con BJT |
+| 5 | Punto de operación MOSFET |
+| 6 | Amplificador con MOSFET |
+| 7 | Oscilador de Wien |
+| 8 | Filtros activos de Sallen-Key |
+:::
+
+:::
+
+---
+
+## Evaluación
+
+| Componente | Peso |
+|---|---|
+| Parcial 1 (Diodos + BJT) | 25% |
+| Parcial 2 (MOSFET + Amplificadores) | 25% |
+| Laboratorios (8 informes) | 30% |
+| Proyecto final | 20% |
+
+---
+
+## Cómo participar
+
+Este sitio vive en GitHub. Los estudiantes pueden:
+
+- 💬 **Hacer preguntas** en el [foro de discusión](https://github.com/alcidesmontoyac/electronica-analogica/discussions)
+- 📥 **Entregar laboratorios** vía GitHub Classroom (enlace por tema)
+- 🐛 **Reportar errores** en el material abriendo un [issue](https://github.com/alcidesmontoyac/electronica-analogica/issues)
+- ✏️ **Sugerir mejoras** vía pull request
+
+---
+
+## Recursos adicionales
+
+- [Canal YouTube del profesor](https://www.youtube.com/@alcidesdejesusmontoyac)
+- [Quantum Colombia — Canal de investigación](https://www.youtube.com/@Quantum_Colombia)
+- [Perfil GitHub](https://github.com/alcidesmontoyac)

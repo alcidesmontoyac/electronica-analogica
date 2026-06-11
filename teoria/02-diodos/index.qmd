@@ -1,0 +1,25 @@
+---
+title: "Módulo 2: Diodos — Modelos y aplicaciones"
+subtitle: "La unión p-n bajo polarización"
+author: "Alcides Montoya"
+date: "2026-08-08"
+categories: [teoria, diodos]
+---
+
+*Contenido en preparación. Disponible en la semana 2 del curso.*
+
+## Temas de este módulo
+
+- La unión p-n: zona de depleción y barrera de potencial
+- Ecuación de Shockley: deducción y parámetros
+- Modelos del diodo: ideal, umbral constante, lineal por partes
+- Circuitos rectificadores (media onda, onda completa, puente)
+- Limitadores (clippers) y sujetadores (clamps)
+- Regulador Zener
+- Diodo LED y fotodiodo
+
+::: {.callout-tip}
+## Video de referencia
+Lecciones 2–5 de la serie Razavi cubren exactamente estos temas.
+{{< video https://www.youtube.com/watch?v=yQDfVJzEymI&list=PLyYrySVqmyVPzvVlPW-TTzHhNWg1J_0LU width="100%" >}}
+:::

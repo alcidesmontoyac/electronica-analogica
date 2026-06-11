@@ -1,0 +1,7 @@
+---
+title: "Módulo 04: MOSFET — Transistor de efecto de campo"
+author: "Alcides Montoya"
+categories: [teoria]
+---
+
+*Contenido disponible próximamente.*

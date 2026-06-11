@@ -1,0 +1,99 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Electrónica Análoga — Taller 4"
+  description: "Curso de Electrónica Análoga · Ingeniería Física · Universidad Nacional de Colombia"
+  favicon: recursos/favicon.png
+  site-url: "https://alcidesmontoyac.github.io/electronica-analogica"
+  repo-url: "https://github.com/alcidesmontoyac/electronica-analogica"
+  repo-actions: [edit, issue]
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    title: "⚡ Electrónica Análoga"
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Teoría"
+        menu:
+          - text: "1. Semiconductores"
+            href: teoria/01-semiconductores/index.qmd
+          - text: "2. Diodos"
+            href: teoria/02-diodos/index.qmd
+          - text: "3. BJT"
+            href: teoria/03-bjt/index.qmd
+          - text: "4. MOSFET"
+            href: teoria/04-mosfet/index.qmd
+          - text: "5. Amplificadores"
+            href: teoria/05-amplificadores/index.qmd
+          - text: "6. Realimentación"
+            href: teoria/06-realimentacion/index.qmd
+          - text: "7. Osciladores"
+            href: teoria/07-osciladores/index.qmd
+          - text: "8. Filtros"
+            href: teoria/08-filtros/index.qmd
+      - text: "Laboratorios"
+        menu:
+          - text: "Lab 1 · Curva I-V del diodo"
+            href: laboratorios/lab01/index.qmd
+          - text: "Lab 2 · Rectificadores"
+            href: laboratorios/lab02/index.qmd
+          - text: "Lab 3 · Punto de operación BJT"
+            href: laboratorios/lab03/index.qmd
+          - text: "Lab 4 · Amplificador BJT"
+            href: laboratorios/lab04/index.qmd
+          - text: "Lab 5 · Punto de operación MOSFET"
+            href: laboratorios/lab05/index.qmd
+          - text: "Lab 6 · Amplificador MOSFET"
+            href: laboratorios/lab06/index.qmd
+          - text: "Lab 7 · Oscilador"
+            href: laboratorios/lab07/index.qmd
+          - text: "Lab 8 · Filtros activos"
+            href: laboratorios/lab08/index.qmd
+      - text: "Evaluaciones"
+        href: evaluaciones/index.qmd
+      - text: "Recursos"
+        href: recursos/index.qmd
+    right:
+      - icon: github
+        href: "https://github.com/alcidesmontoyac/electronica-analogica"
+      - icon: youtube
+        href: "https://www.youtube.com/@alcidesdejesusmontoyac"
+
+  sidebar: false
+
+  page-footer:
+    left: "© 2026 · Alcides Montoya · Universidad Nacional de Colombia"
+    right:
+      - icon: github
+        href: "https://github.com/alcidesmontoyac"
+      - icon: youtube
+        href: "https://www.youtube.com/@alcidesdejesusmontoyac"
+
+format:
+  html:
+    theme:
+      light: [cosmo, recursos/custom.scss]
+      dark: [darkly, recursos/custom-dark.scss]
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-depth: 3
+    toc-title: "Contenido"
+    number-sections: true
+    highlight-style: github
+    fig-align: center
+    fig-cap-location: bottom
+    html-math-method: katex
+    citations-hover: true
+    footnotes-hover: true
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+
+editor: visual

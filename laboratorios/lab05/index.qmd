@@ -1,0 +1,7 @@
+---
+title: "Lab 05 — en preparación"
+author: "Alcides Montoya"
+categories: [laboratorio]
+---
+
+*Guía disponible antes de la sesión correspondiente.*
