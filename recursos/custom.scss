@@ -1,108 +1,32 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
 /*-- Electrónica Análoga · Tema personalizado (claro) --*/
 
-/*-- Variables de color --*/
 $primary: #1a5276;
 $secondary: #2980b9;
 $accent: #e67e22;
 $light-bg: #f4f6f8;
 
-/*-- Navbar --*/
 .navbar {
   background: linear-gradient(135deg, $primary 0%, #154360 100%) !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
-.navbar-brand {
-  font-weight: 700;
-  font-size: 1.1rem;
-}
-
-/*-- Hero banner --*/
 .hero-banner {
   background: linear-gradient(135deg, $primary 0%, $secondary 100%);
   color: white;
   padding: 2.5rem 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 16px rgba(26, 82, 118, 0.25);
-
-  h1 {
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  p, strong {
-    color: rgba(255,255,255,0.92);
-  }
+  h1 { color: white; }
+  p, strong { color: rgba(255,255,255,0.92); }
 }
 
-/*-- Tarjetas de contenido --*/
-.card {
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
-  }
-}
-
-/*-- Tablas --*/
-.table {
-  border-radius: 8px;
-  overflow: hidden;
-
-  thead {
-    background: $primary;
-    color: white;
-  }
-
-  tbody tr:hover {
-    background: rgba(41, 128, 185, 0.06);
-  }
-}
-
-/*-- Callouts personalizados --*/
-.callout-tip {
-  border-left-color: $secondary;
-}
-
-.callout-warning {
-  border-left-color: $accent;
-}
-
-/*-- Código --*/
-pre {
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
-}
-
-/*-- Títulos de sección --*/
 h2 {
   color: $primary;
   border-bottom: 2px solid $secondary;
   padding-bottom: 0.3rem;
 }
 
-h3 {
-  color: darken($secondary, 10%);
-}
-
-/*-- Footer --*/
-.nav-footer {
-  background: $light-bg;
-  border-top: 1px solid #dee2e6;
-  font-size: 0.85rem;
-  color: #6c757d;
-}
-
-/*-- Responsive --*/
-@media (max-width: 768px) {
-  .hero-banner {
-    padding: 1.5rem 1rem;
-    h1 { font-size: 1.5rem; }
-  }
-}
+h3 { color: darken($secondary, 10%); }

@@ -1,3 +1,6 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
 /*-- Electrónica Análoga · Tema personalizado (oscuro) --*/
 
 .navbar {
@@ -10,9 +13,7 @@
   padding: 2.5rem 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
-
   h1 { color: #e8f4fd; }
-  p, strong { color: rgba(232,244,253,0.88); }
 }
 
 h2 {
@@ -20,5 +21,3 @@ h2 {
   border-bottom: 2px solid #2e86c1;
   padding-bottom: 0.3rem;
 }
-
-h3 { color: #85c1e9; }
