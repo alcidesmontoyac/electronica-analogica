@@ -1,32 +1,13 @@
 /*-- scss:defaults --*/
 
 /*-- scss:rules --*/
-/*-- Electrónica Análoga · Tema personalizado (claro) --*/
-
-$primary: #1a5276;
-$secondary: #2980b9;
-$accent: #e67e22;
-$light-bg: #f4f6f8;
 
 .navbar {
-  background: linear-gradient(135deg, $primary 0%, #154360 100%) !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
-.hero-banner {
-  background: linear-gradient(135deg, $primary 0%, $secondary 100%);
-  color: white;
-  padding: 2.5rem 2rem;
-  border-radius: 12px;
-  margin-bottom: 2rem;
-  h1 { color: white; }
-  p, strong { color: rgba(255,255,255,0.92); }
+  background: linear-gradient(135deg, #1a5276 0%, #154360 100%) !important;
 }
 
 h2 {
-  color: $primary;
-  border-bottom: 2px solid $secondary;
+  color: #1a5276;
+  border-bottom: 2px solid #2980b9;
   padding-bottom: 0.3rem;
 }
-
-h3 { color: darken($secondary, 10%); }
