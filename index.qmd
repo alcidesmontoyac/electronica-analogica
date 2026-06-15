@@ -1,6 +1,6 @@
 ---
-title: "Electrónica Análoga"
-subtitle: "Taller 4 · Ingeniería Física · Universidad Nacional de Colombia · 2026-2"
+title: "Taller 4: Electrónica Análoga"
+subtitle: "Ingeniería Física · Universidad Nacional de Colombia · 2026-2"
 page-layout: full
 toc: false
 ---
@@ -11,8 +11,8 @@ toc: false
 **Profesor:** Alcides de Jesús Montoya Cañola  
 **Código:** Taller 4 — Ingeniería Física  
 **Período:** 2026-2 · Universidad Nacional de Colombia, sede Medellín  
-**Horario:** Por confirmar  
-**Lugar:** Por confirmar
+**Horario:** Martes y miercoles 8 a 12 am  
+**Lugar:** Bloque 21 Piso 4 Laboratorios de electrónica
 :::
 
 ---
@@ -77,10 +77,10 @@ Usaremos como complemento la serie de clases magistrales del propio Razavi, disp
 
 | Componente | Peso |
 |---|---|
-| Parcial 1 (Diodos + BJT) | 25% |
-| Parcial 2 (MOSFET + Amplificadores) | 25% |
-| Laboratorios (8 informes) | 30% |
-| Proyecto final | 20% |
+| Parcial 1 (Diodos + BJT) | 20% |
+| Parcial 2 (MOSFET + Amplificadores) | 20% |
+| Quices y laboratorios (informes) | 20% |
+| Proyecto final | 40% |
 
 ---
 
