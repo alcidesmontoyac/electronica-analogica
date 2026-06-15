@@ -11,15 +11,15 @@ toc: false
 | Taller 1 | Semiconductores + Diodos | Semana 3 | 8% | GitHub Classroom |
 | **Lab 1** | Curva I-V del diodo | Semana 4 | 3.5% | GitHub Classroom |
 | **Lab 2** | Rectificadores | Semana 5 | 3.5% | GitHub Classroom |
-| **Parcial 1** | Diodos + BJT | Semana 8 | 25% | Presencial |
+| **Parcial 1** | Diodos + BJT | Semana 8 | 20% | Presencial |
 | **Lab 3** | Punto de operación BJT | Semana 9 | 3.5% | GitHub Classroom |
 | **Lab 4** | Amplificador BJT | Semana 10 | 3.5% | GitHub Classroom |
 | **Lab 5** | Punto de operación MOSFET | Semana 11 | 3.5% | GitHub Classroom |
 | **Lab 6** | Amplificador MOSFET | Semana 12 | 3.5% | GitHub Classroom |
-| **Parcial 2** | MOSFET + Amplificadores | Semana 14 | 25% | Presencial |
+| **Parcial 2** | MOSFET + Amplificadores | Semana 14 | 20% | Presencial |
 | **Lab 7** | Oscilador de Wien | Semana 15 | 3.5% | GitHub Classroom |
 | **Lab 8** | Filtros activos | Semana 16 | 3.5% | GitHub Classroom |
-| **Proyecto final** | Diseño completo | Semana 18 | 20% | GitHub Classroom + Presentación |
+| **Proyecto final** | Diseño completo | Semana 16 | 40% | GitHub Classroom + Presentación |
 
 ---
 
