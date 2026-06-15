@@ -4,13 +4,10 @@ project:
 
 website:
   title: "Electrónica Análoga — Taller 4"
-  description: "Curso de Electrónica Análoga · Ingeniería Física · Universidad Nacional de Colombia"
-  favicon: recursos/favicon.png
+  description: "Curso de Electrónica Análoga · Ingeniería Física · UNAL 2026-2"
   site-url: "https://alcidesmontoyac.github.io/electronica-analogica"
   repo-url: "https://github.com/alcidesmontoyac/electronica-analogica"
   repo-actions: [edit, issue]
-  open-graph: true
-  twitter-card: true
 
   navbar:
     title: "⚡ Electrónica Análoga"
@@ -63,37 +60,20 @@ website:
       - icon: youtube
         href: "https://www.youtube.com/@alcidesdejesusmontoyac"
 
-  sidebar: false
-
   page-footer:
     left: "© 2026 · Alcides Montoya · Universidad Nacional de Colombia"
-    right:
-      - icon: github
-        href: "https://github.com/alcidesmontoyac"
-      - icon: youtube
-        href: "https://www.youtube.com/@alcidesdejesusmontoyac"
 
 format:
   html:
-    theme:
-      light: cosmo
-      dark: darkly
-    code-fold: true
-    code-tools: true
+    theme: cosmo
     toc: true
     toc-depth: 3
     toc-title: "Contenido"
     number-sections: true
     highlight-style: github
-    fig-align: center
-    fig-cap-location: bottom
     html-math-method: katex
-    citations-hover: true
-    footnotes-hover: true
 
 execute:
   freeze: auto
   echo: true
   warning: false
-
-editor: visual
